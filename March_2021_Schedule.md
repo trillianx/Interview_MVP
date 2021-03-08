@@ -19,7 +19,7 @@ The goal in this month is to complete the following
 | Tuesday   | 5 LC Array Problems           | Deep Learning Submit Week 1 & 2 | Stats Flashcards       |
 | Wednesday | Deep Learning Lectures Week 3 | 5 LC Array Problems             | ML Review + Flashcards |
 | Thursday  | 5 LC Array Problems           | Deep Learning Lectures Week 3   |                        |
-| Friday    | Deep Learning Lectures Week 3 | -                               |                        |
+| Friday    | Deep Learning Submit Week 3   | -                               |                        |
 | Saturday  | -                             | 5 LC Array Problems             |                        |
 | Sunday    | Rest                          | Coding Review                   | Rest                   |
 
