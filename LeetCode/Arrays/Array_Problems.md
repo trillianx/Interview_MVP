@@ -139,3 +139,108 @@ Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 Output: [1,2,2,3,5,6]
 ```
 
+
+
+### Question 6: Remove Element
+
+Given an array `nums` and a value `val`, remove all instances of that value in-place and return the new length. 
+
+```python
+Input: nums = [3,2,2,3], val = 3
+Output: 2, nums = [2,2]
+Explanation: Your function should return length = 2, with the first two elements of nums being 2.
+It doesn't matter what you leave beyond the returned length. For example if you return 2 with nums = [2,2,3,3] or nums = [2,2,0,0], your answer will be accepted.
+```
+
+And here is the second example: 
+
+```python
+Input: nums = [0,1,2,2,3,0,4,2], val = 2
+Output: 5, nums = [0,1,4,0,3]
+Explanation: Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4. Note that the order of those five elements can be arbitrary. It doesn't matter what values are set beyond the returned length.
+```
+
+The idea is fairly simple. When the current value is equal to the value, we swap that with the end value and shrink the length of the array by 1 from the end. 
+
+```python
+def remove_element(arr, value):
+    n = len(arr)
+    start = 0
+    while start < n:
+        if arr[start] == value:
+            arr[start], arr[n-1] = arr[n-1], arr[start]
+            n -= 1
+        else:
+            start += 1
+    return n
+```
+
+### Question 7. Remove Duplicates from Sorted Array
+
+Given a sorted array, remove the duplicates in-place such that each element appears only once and returns the new length. 
+
+```python
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4]
+Explanation: Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively. It doesn't matter what values are set beyond the returned length.
+```
+
+The key idea here is that you copy the value associated with `arr[end]` when it is not equal to `arr[start]`. Of course, you make use of two pointers trick here. 
+
+```python
+def remove_duplicates(arr):
+    n = len(arr)
+    start = 0
+    for end in range(1, n):
+        if arr[start] != arr[end]:
+            start += 1
+            arr[start] = arr[end]
+    return arr
+```
+
+### Question 8. Check if N and its Double Exists
+
+Given an array of integers, check if there exists two integers `N` and `M` such that `N` is the double of `M`. (i.e. `N = 2 * M`). 
+
+```python
+Input: arr = [7,1,14,11]
+Output: true
+Explanation: N = 14 is the double of M = 7,that is, 14 = 2 * 7.
+```
+
+Another example: 
+
+```python
+Input: arr = [3,1,7,11]
+Output: false
+Explanation: In this case does not exist N and M, such that N = 2 * M.
+```
+
+The key idea is to create a set and store the double of the current value in the set. Check in each iteration whether the double or 1/2 of the current value is present. If so, return true else return false. 
+
+```python
+def find_double(arr):
+    seen = set()
+    for val in arr:
+        if 2*val in seen or 0.5*val in seen:
+            return True
+        seen.add(val)
+    return False
+```
+
+### Question 9. Valid Mountain Array
+
+Given an array of integers, `arr`, return `True` if and only if it is a valid mountain. 
+
+<img src="Array_Problems.assets/image-20210315114225445.png" alt="image-20210315114225445" style="zoom:80%;" />
+
+```python
+Input: arr = [3,5,5]
+Output: false
+```
+
+```python
+Input: arr = [0,3,2,1]
+Output: true
+```
+

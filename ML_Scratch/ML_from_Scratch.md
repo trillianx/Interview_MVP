@@ -1,3 +1,5 @@
+[TOC]
+
 
 
 # Machine Learning From Scratch
@@ -5,7 +7,6 @@
 My notes include writing well-known ML algorithms from scratch. These are often asked in coding interviews. I will start by first defining the algorithm. Then go into the steps of the algorithm and finally write a code to run the algorithm. The code has been taken from the following YouTube videos: 
 
 *   [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA)
-*   
 
 ## kNN 
 
@@ -58,12 +59,8 @@ class knn():
 
 		# Compute the distances:
 		distances = [self._euclidean_distance(x, x_train) for x_train in self.X_train]
-		print(distances)
-
 		# Sort the distances in increasing order and return indexes
 		k_idx = np.argsort(distances)[:self.k]
-		print(k_idx)
-
 		# Extract the labels corresponding to the indexes:
 		k_labels = self.y_train[k_idx]
 
@@ -87,4 +84,23 @@ if __name__ == '__main__':
 	predictions = clf.predict(X_test)
 	print(predictions)
 ```
+
+## K-means
+
+**Definition**
+
+The k-Means is a unsupervised learning algorithm that is used to classify observations into multiple clusters. The number of clusters is based on the user-defined number, which is $k$. 
+
+**Algorithm Steps**
+
+1.  We start by randomly assigning $k$ cluster centers. 
+2.  For each observation, we measure the distance between the observation and the cluster centroid. This is often done using Euclidean distance.
+3.  Assign the nearest point to the given cluster
+4.  Go through each observation by repeating steps 2 and 3
+5.  Once we are done with all observations, we measure the mean of each cluster.
+6.  We assign the position of each centroid equal to that of the mean value.
+7.  We measure the variance of each cluster and note the positions of each cluster and the total variance.
+8.  Repeat steps 2-7 number of times equal to the user-defined value or the cluster positions do not change.
+
+Once we done, we output the positions of the clusters that resulted in the lowest cluster variance. 
 
