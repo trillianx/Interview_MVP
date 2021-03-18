@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "c8fd88a816614fc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "009560f6d58665b6",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3248c31a1afdb37b",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa263f8ffd725078",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "011098a6691a1a7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ea816e5224a3e81",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c7c69542f3fb97ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f810437225cd94e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a5f8b606dde22c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "hypothesis testing.md",
+    "Descriptive Statistics.md",
+    "Distributions.md",
+    "Data.md",
+    "Untitled.md"
+  ]
+}
