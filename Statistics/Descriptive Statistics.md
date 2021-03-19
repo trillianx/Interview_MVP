@@ -87,4 +87,4 @@ In summary, we can say that:
 > The **standard deviation** is a measure of **distance** (on either side of the mean)
 
 ## Variability of Qualitative and Ranked Data
-The measure of variability for [[qualitative data]] does not exist. This is because it does not make sense. However, for [[Ordinal data]] data we can determine the variability by identifying extreme scores or ranks. 
+The measure of variability for [[Qualitative data]] does not exist. This is because it does not make sense. However, for [[Ordinal data]] data we can determine the variability by identifying extreme scores or ranks. 

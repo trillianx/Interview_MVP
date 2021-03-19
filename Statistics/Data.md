@@ -6,7 +6,7 @@ There are two types of statistics: the [[descriptive statistics]] provides tools
 
 Observations, by themselves, come in two parts.[[Surveys]] make use of random sampling to generalize the population from the samples. Surveys do not change the anything but simply understand the population. [[Experiments]] on the other hand, randomly sample units from the population. In a simple experiment, units are randomly sampled from the population. These units are broken into two groups: control and treatment. A single parameter is changed in the treatment while nothing is changed in the control. Then the difference between the control and treatment is computed to determined if this difference is real or transitory. This is known as A/B test or a hypothesis test. When there are more than one parameter, this is known as multivariate A/B test. 
 
-Data is a collection of observations from surveys or experiments. Data comes in two flavors: [[qualitative data]] consists of categories such as Male/Female, Red/Blue/Green. This is known as [[categorical data]] and [[quantitative data]] which consists of numbers. 
+Data is a collection of observations from surveys or experiments. Data comes in two flavors: [[Qualitative data]] consists of categories such as Male/Female, Red/Blue/Green. This is known as [[categorical data]] and [[Quantitative data]] which consists of numbers. 
 
 Data also has subcategories: 
 

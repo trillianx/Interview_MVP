@@ -8,8 +8,6 @@ One way to summarize the data is through the creation of distributions. These di
 * [[Cumulative Frequency Distribution]] - is taking the cumulative sum of the proportion frequency distribution. 
 * [[Percentile Ranks]] - allows us to determine the position of an observation relative to other observations. A percentile rank of an observation is simply the cumulative score of that observation in cumulative frequency distribution. 
 
-The frequency distribution of [[qualitative data]] can be taken similar to how we take the frequency distribution of quantitative data shown above. 
-
 So far the tools we have seen create tables. However, we can also visualize these frequency distributions. The visualization is primarily done using [[histograms]]. Histogram simply plot the counts of observations in each bin. In other words, plot the frequency distribution table we created above into a graph. Other non-common type is the stem and leaf display. 
 
 When a histogram of the frequency distribution is created, we can see the shape of the distribution. When a distribution is composed of [[discrete variable]] it is called a [[discrete distribution]] while when a distribution has [[continuous variable]], it is called a [[continuous distribution]]. 
@@ -19,5 +17,3 @@ Here are some common distributions:
 * A [[normal distribution]] is a symmetric distribution that has just one peak. It is a bell-shaped distribution.
 * A [[bimodal distribution]] is a distribution that has two peaks. A multi-modal distribution is a distribution that has multiple peaks. 
 * A [[skewed distribution]] is a distribution that is lop-sided. A positively skewed distribution is a distribution that has a long tail in the direction of positive values while a negatively skewed distribution is a distribution that has a long tail in the direction of negative values. 
-
-For [[qualitative data]] the [[bar graph]] is used. 

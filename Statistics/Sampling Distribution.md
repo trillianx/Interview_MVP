@@ -16,7 +16,7 @@ So, if we have a mean of the sample distribution of the sample means is 500 and 
 
 ## Shape of the Sample Distribution
 
->The central limit theorem states that, regardless of the shape of the population, the shape of the sampling distribution of the sample mean approximates a normal curve if the sample size is sufficiently large
+>The [[central limit theorem]] states that, regardless of the shape of the population, the shape of the sampling distribution of the sample mean approximates a normal curve if the sample size is sufficiently large
 
 This is a very powerful theorem. Basically, it states that it does not matter what the shape of the population is. If we take sufficient number of samples, the shape of the sampling distribution of sample means will always be a [[normal distribution]]. This is actually really great because we know a whole lot about normal distribution. So, once we have enough samples, we can determine the mean and standard deviation of our sampling distribution and we can effectively know everything about the population. 
 
