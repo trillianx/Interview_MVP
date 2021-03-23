@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "009560f6d58665b6",
+        "id": "ea4160c9837acb66",
         "type": "leaf",
         "active": true,
         "state": {
@@ -69,8 +69,27 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fe7771d6c59827a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "8117479fd83e150f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -82,10 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "hypothesis testing.md",
-    "Descriptive Statistics.md",
-    "Distributions.md",
-    "Data.md",
-    "Untitled.md"
+    "050_Population and Samples.md",
+    "030_Descriptive Statistics.md",
+    "020_Distributions.md",
+    "022_Probability Distributions.md",
+    "Untitled.md",
+    "010_Statistics.md",
+    "021_Normal Distribution.md",
+    "040_Scores.md",
+    "050_Population and Sampling.md",
+    "012_Surveys_Experiments.md"
   ]
 }
