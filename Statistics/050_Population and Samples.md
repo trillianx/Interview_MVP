@@ -86,3 +86,53 @@ The table below keeps track of the symbols associated with means and standard de
 
 ![[Pasted image 20210318143918.png]]
 
+## Confidence Intervals
+
+So far we have taken samples from the population, computed their mean and contructed a sample distribution of sample means. The mean of this distribution is the population mean, which we know from the central limit theorem. However, given the sample variations, out calculated mean may not be exactly the population mean but close to it. Or it could be quite far. 
+
+One way to determine how close we are is to compute the standard error. The standard error will show the variation in our mean, which we can attribute to a range of values into which the population mean falls. 
+
+Another approach to determine the accuracy of the sample mean as the population mean is to calculate the boundaries within which we believe the population mean willl fall. Such boundaries are called [[confidence intervals]].  In other words, we construct a range of values within which the population mean will fall. 
+
+The confidence intervals tell us the likelihood that they contain the population mean within their limits. So, when we see a 95% confidence interval, we say that if we collected 100 samples from the population and computed their mean and then calculated the confidence interval for that mean then for 95 of these samples, the confidence intervals we constructed would contain the population mean. 
+
+> A 95% confidence interval states 95% of the samples will contain the population mean within the intervals. 
+
+From [[021_Normal Distribution]] we know that 95% of the scores fall between z-scores of $\pm1.96$. So, if our sample distribution of sample means is a [[standard normal curve]] then our limits of confidence intervals would be $\pm1.96$. Central limit theorem tells us that if we take more than 30 samples from the population, the sample distribution of sample means will be a normal distribution. 
+
+So, we transform our sample distribution of sample means into a standard normal distribution using [[z score]]. Then taking $\pm1.96$, we can construct the lower and upper bounds: 
+
+$$
+X_{lower} = \bar{X} - 1.96 \times s
+$$
+$$
+X_{upper} = \bar{X} + 1.96 \times s
+$$
+
+Where $s$ is the standard error of a given sample and $\bar{X}$ is the mean of a given sample. 
+
+Here's an example of picking 50 samples and computing their 95% confidence intervals. The true population mean is 15 million. We see that out of 50, three intervals do not contain the population mean. Thus, 47/50 $\approx$ 95%. 
+
+![[Pasted image 20210323094615.png]]
+
+We have computed a 95% confidence interval but we can do this for any confidence. The general equation for this is the following: 
+
+![[Pasted image 20210323095208.png]]
+
+where $p$ is the probability value for the confidence interval. So, for $p = 0.95$, we have $z = (1-0.95)/2 = 0.025$. We can then look up the small portion of the column of the table of the standard normal distribution. We will find that $z = 1.96$. 
+
+> The size of the confidence interval is determined by the sample standard error. Smaller the standard error, tighter the confidence interval. 
+
+If the confidence intervals of two samples do not overlap, two things can happen: 
+
+1. One of the sample has the population mean while the other does not
+2. The two samples comes from two different distributions
+
+However, if we use a 95% confidence interval, we can rule out the second explanation as it is unlikely to happen. However, the confidence intervals can help us determine if the samples come from a different populations, because the confidence intervals do not overlap for many samples, we can infer that they come from a different populations. 
+
+## Calculating Confidence Interval in small samples
+
+When we don't have enough samples, the central limit theorem does not hold. So, the sample distribution we have is not normal. However, for small samples, the sampling distribution resembles a [[t-distribution]]. So, to construct confidence intervals for small samples, we have: 
+
+![[Pasted image 20210323095732.png]]
+

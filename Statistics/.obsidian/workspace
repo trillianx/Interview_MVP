@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ea4160c9837acb66",
+        "id": "d90bf2aebddae50f",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Hypothesis Testing.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hypothesis Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hypothesis Testing.md"
+              }
             }
           },
           {
@@ -101,15 +107,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "050_Population and Samples.md",
-    "030_Descriptive Statistics.md",
-    "020_Distributions.md",
-    "022_Probability Distributions.md",
+    "Hypothesis Testing.md",
+    "Test Statistic.md",
     "Untitled.md",
-    "010_Statistics.md",
-    "021_Normal Distribution.md",
+    "Pasted image 20210323094615.png",
+    "Pasted image 20210323095208.png",
+    "Pasted image 20210323095732.png",
+    "050_Population and Samples.md",
     "040_Scores.md",
-    "050_Population and Sampling.md",
-    "012_Surveys_Experiments.md"
+    "030_Descriptive Statistics.md",
+    "020_Distributions.md"
   ]
 }
