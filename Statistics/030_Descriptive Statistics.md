@@ -52,7 +52,7 @@ The standard error can also tell us how far from the mean the most extreme score
 
 ## Populations & Samples
 
-The means and the standard deviations of [[050_Population and Samples]] are equally important. As we will see in the populations and samples, we can infer the population mean from the sample mean and standard deviation of the population from the sample standard deviation. The sample standard deviation is called the [[standard error]]. 
+The means and the standard deviations of [[050_Population_and_Samples]] are equally important. As we will see in the populations and samples, we can infer the population mean from the sample mean and standard deviation of the population from the sample standard deviation. The sample standard deviation is called the [[standard error]]. 
 
 > For most frequency distributions, a small minority (often as small as 5%) of all scores deviate more than two standard deviations on either side of the mean. 
 

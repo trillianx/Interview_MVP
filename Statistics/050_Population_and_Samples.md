@@ -38,7 +38,7 @@ The process is to take the sets of samples from the population, compute their me
 
 By creating a sampling distribution of sample means we, effectively, **create a model of the population**. This becomes our framework. Next time when we take a sample from the population, we can compare it with our framework to decide whether the sample is representative of the population or not. 
 
-So, if we have a mean of the sample distribution of the sample means is 500 and and standard deviation of 2.3, and suppose we draw a sample from the population and get a value of 533 for a given sample, we can tell how representative this sample of 533 is. We would find that it is quite rare. We will see this come into play when we work with [[hypothesis testing]]. 
+So, if we have a mean of the sample distribution of the sample means is 500 and and standard deviation of 2.3, and suppose we draw a sample from the population and get a value of 533 for a given sample, we can tell how representative this sample of 533 is. We would find that it is quite rare. We will see this come into play when we work with [[060_Hypothesis_Testing]]. 
 
 ## Shape of the Sample Distribution
 
