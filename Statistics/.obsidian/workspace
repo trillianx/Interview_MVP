@@ -10,8 +10,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Hypothesis Testing.md",
+            "file": "021_Normal Distribution.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "dfe7d57e76b23fe8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "021_Normal Distribution.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hypothesis Testing.md",
+                "file": "021_Normal Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hypothesis Testing.md"
+                "file": "021_Normal Distribution.md"
               }
             }
           },
@@ -107,15 +118,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Hypothesis Testing.md",
-    "Test Statistic.md",
-    "Untitled.md",
-    "Pasted image 20210323094615.png",
-    "Pasted image 20210323095208.png",
-    "Pasted image 20210323095732.png",
-    "050_Population and Samples.md",
+    "021_Normal Distribution.md",
+    "050_Population_and_Samples.md",
     "040_Scores.md",
-    "030_Descriptive Statistics.md",
-    "020_Distributions.md"
+    "041_Test Statistic.md",
+    "042_Parametric_Tests.md",
+    "060_Hypothesis_Testing.md",
+    "042_Parametric Tests.md",
+    "Untitled.md",
+    "050_Population and Samples.md",
+    "Test Statistic.md"
   ]
 }

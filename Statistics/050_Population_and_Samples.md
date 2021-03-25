@@ -32,7 +32,7 @@ This is nothing but the sum of squares. However, this idea will come time and ti
 
 It is often hard to work with [[population]] as it can be impossible given the size or can be prohibitively expensive. Instead, we rely on the samples from the population. However, a single sample may not give us the true picture of the population as it may or may not represent the true population. Therefore, we rely on taking multiple sets of samples from the population. Hundreds of these sets are more likely to be representative of the population. 
 
-The process is to take the sets of samples from the population, compute their mean and construct a distribution of sample means. Such a distribution is called [[sample distribution of sample means]] or simply sample distribution. 
+The process is to take the sets of samples from the population, compute their mean and construct a distribution of sample means. Such a distribution is called [[sample distribution of sample means]] or simply sample distribution. This is also known as the **sampling distribution**. 
 
 > The sampling distribution of the mean refers to the [[probability distribution]] of means for all possible random samples of a given size from some population
 
@@ -88,11 +88,7 @@ The table below keeps track of the symbols associated with means and standard de
 
 ## Confidence Intervals
 
-So far we have taken samples from the population, computed their mean and contructed a sample distribution of sample means. The mean of this distribution is the population mean, which we know from the central limit theorem. However, given the sample variations, out calculated mean may not be exactly the population mean but close to it. Or it could be quite far. 
-
-One way to determine how close we are is to compute the standard error. The standard error will show the variation in our mean, which we can attribute to a range of values into which the population mean falls. 
-
-Another approach to determine the accuracy of the sample mean as the population mean is to calculate the boundaries within which we believe the population mean willl fall. Such boundaries are called [[confidence intervals]].  In other words, we construct a range of values within which the population mean will fall. 
+The sample mean that we compute based on the samples we collect from the population is a **point estimate of the population mean**. Given the fact that it is an estimate, we don't know how good of an estimate it is. Therefore, we need to set a range of values within which the population mean would fall. This is known asn [[confidence intervals]]
 
 The confidence intervals tell us the likelihood that they contain the population mean within their limits. So, when we see a 95% confidence interval, we say that if we collected 100 samples from the population and computed their mean and then calculated the confidence interval for that mean then for 95 of these samples, the confidence intervals we constructed would contain the population mean. 
 
@@ -100,7 +96,7 @@ The confidence intervals tell us the likelihood that they contain the population
 
 From [[021_Normal Distribution]] we know that 95% of the scores fall between z-scores of $\pm1.96$. So, if our sample distribution of sample means is a [[standard normal curve]] then our limits of confidence intervals would be $\pm1.96$. Central limit theorem tells us that if we take more than 30 samples from the population, the sample distribution of sample means will be a normal distribution. 
 
-So, we transform our sample distribution of sample means into a standard normal distribution using [[z score]]. Then taking $\pm1.96$, we can construct the lower and upper bounds: 
+So, for each sample, we transform our sample distribution of sample means into a standard normal distribution using [[z score]]. Then taking $\pm1.96$, we can construct the lower and upper bounds: 
 
 $$
 X_{lower} = \bar{X} - 1.96 \times s
