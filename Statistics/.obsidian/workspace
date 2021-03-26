@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d90bf2aebddae50f",
+        "id": "f7197a3786595a96",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "021_Normal Distribution.md",
+            "file": "060_Hypothesis_Testing.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "dfe7d57e76b23fe8",
+        "id": "ca06f38e63476113",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "021_Normal Distribution.md",
+            "file": "060_Hypothesis_Testing.md",
             "mode": "preview"
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "021_Normal Distribution.md",
+                "file": "060_Hypothesis_Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "021_Normal Distribution.md"
+                "file": "060_Hypothesis_Testing.md"
               }
             }
           },
@@ -118,15 +118,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "021_Normal Distribution.md",
-    "050_Population_and_Samples.md",
-    "040_Scores.md",
-    "041_Test Statistic.md",
-    "042_Parametric_Tests.md",
     "060_Hypothesis_Testing.md",
-    "042_Parametric Tests.md",
+    "070_Correlation.md",
+    "041_Test Statistic.md",
+    "040_Scores.md",
+    "042_Parametric_Tests.md",
+    "Correlation.md",
+    "011_Data Types.md",
     "Untitled.md",
-    "050_Population and Samples.md",
-    "Test Statistic.md"
+    "021_Normal Distribution.md",
+    "050_Population_and_Samples.md"
   ]
 }
