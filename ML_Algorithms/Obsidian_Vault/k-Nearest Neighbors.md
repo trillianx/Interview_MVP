@@ -2,7 +2,7 @@
 
 The k-Nearest Neighbors algorithm (kNN) is a [[supervised]] machine learning algorithm that can be used to solve both [[classification]] and [[regression]] problems. kNN makes use of [[distance]]. 
 
-## How does it work? 
+## How Does it Work? 
 
 Let's assume the goal is to find the label of a query example. The kNN algorithm works in the following way: 
 
@@ -19,11 +19,11 @@ Let's assume the goal is to find the label of a query example. The kNN algorithm
 
 The returned label will be the lable of the query example. 
 
-## What is the cost function? 
+## What is the Cost Function? 
 
 kNN algorithm does not use a cost function as it is not trained. So, there is no[[optimization]] done. However, in the classification settings [[confusion matrix]] and other classification metrics such as [[mean error]] can be used to determine how accurate the model is. 
 
-## What are the hyperparameters?
+## What are the Hyperparameters?
 
 There are two: $k$, which is the number of nearest neighbors and the distance metric. By default the distance metric is [[euclidean distance]]. However, other distance metrics can be used. The best value of the [[hyperparameter]], $k$, is determined by trying our multiple values of $k$ and seeing which $k$ gives the lowest mean error. However, care must be taken to not overfit the data. 
 
@@ -35,7 +35,7 @@ In general, use the smallest $k$ value that gives the lowest mean error.
 
 > [[scaling]] and [[normalization]] is important as is the case with any algorithm that uses distances.
 
-## What are the strengths and weaknesses?
+## What are the Strengths and Weaknesses?
 
 **Strengths**
 * Easy to understand and implement
