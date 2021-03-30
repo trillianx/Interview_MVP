@@ -21,7 +21,7 @@ The returned label will be the lable of the query example.
 
 ## What is the Cost Function? 
 
-kNN algorithm does not use a cost function as it is not trained. So, there is no[[optimization]] done. However, in the classification settings [[confusion matrix]] and other classification metrics such as [[mean error]] can be used to determine how accurate the model is. 
+kNN algorithm does not use a cost function as it is not trained. So, there is no [[optimization]] done. However, in the classification settings [[confusion matrix]] and other classification metrics such as [[mean error]] can be used to determine how accurate the model is. 
 
 ## What are the Hyperparameters?
 
