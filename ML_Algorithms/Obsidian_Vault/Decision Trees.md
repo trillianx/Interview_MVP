@@ -1,5 +1,5 @@
 # Decision Trees
-Decision tree is a [[supervised]] and [[non-parametric]] algorithm used for [[classification]] and [[regression]] problems. The decision tree makes use of the binary tree data structure. It splits the feature space on a given metric dictated by the type of the problem. 
+Decision tree is a [[supervised learning]] and [[non-parametric]] algorithm used for [[classification]] and [[regression]] problems. The decision tree makes use of the binary tree data structure. It splits the feature space on a given metric dictated by the type of the problem. 
 
 ## How Does it Work?
 

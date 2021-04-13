@@ -21,3 +21,4 @@ G_i = 1 - \sum_{k=1}^n p_{i,k}^2
 $$
 
 where $p_{i,k}$ is non-zero. The $p_{i,k}$ is the ratio of instances belonging to class $k$ in the $i$th node.
+
